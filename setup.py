@@ -6,5 +6,6 @@ setup(name='spatialmedia',
       author='Google Inc',
       license='Apache License 2.0',
       url='https://github.com/google/spatial-media',
-      packages=['spatialmedia', 'spatialmedia.mpeg']
+      packages=['spatialmedia', 'spatialmedia.mpeg'],
+      app=['spatialmedia/gui.py']
 )
